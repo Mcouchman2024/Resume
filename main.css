@@ -1,0 +1,56 @@
+
+@font-face {
+  font-family: heading1;
+  src: url('./Lato-Bold.ttf');
+}
+@font-face {
+  font-family: heading2;
+  src: url('./RobotoMono.ttf');
+}
+html {
+  background: grey;
+  margin: 50px 50px;
+}
+body {
+  background-color: white;
+  border-radius: 30px 10px;
+}
+.button{
+  outline: none;
+}
+.button:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.outline {
+  border-radius: 0px 30px 0px 30px;
+}
+div {
+  font-family: heading1;
+  color: #0B064F;
+  background: darkgrey;
+  background-image: linear-gradient(lightgrey,darkgrey);
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 60%;
+  font-size: 38pt;
+  border-radius: 30px 0px;
+  padding: 20pt;
+  font-weight: bold;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+.certs {
+  padding: 10px;
+  margins: 0px;
+}
+tr.bottom {
+  border-bottom: 5px solid black;
+}
+td.cat {
+  font-family: heading2;
+  padding-left: 24px;
+  color: #0B064F;
+  font-size: 15pt;
+  font-weight: bold;
+}
