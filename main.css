@@ -60,12 +60,12 @@ div {
   color: #0B064F;
   background: darkgrey;
   background-image: linear-gradient(lightgrey,darkgrey);
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
   width: 60%;
   font-size: 38pt;
   border-radius: 30px 0px;
-  padding: 20pt;
+  padding: 40pt;
   font-weight: bold;
   border-bottom: 5px solid black;
   border-top: 5px solid black;
